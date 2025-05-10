@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*------------------------------- Body ----------------------*/
+body{
+
+    font-family: Inter sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*------------------------------- Header ----------------------*/
+header, footer {
+    height: 20vh;
+}
+header{
+    background: #8D8484;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+
+}
+header p{
+
+}
+/*------------------------------- Main ----------------------*/
+main{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side div{
+    height: 20vh;
+    width: 73vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-1{
+    background: #776969;
+}
+.content-2{
+    background: #643030;
+}
+.content-3{
+    background: #441818;
+}
+
+.right-side div{
+    height: 30vh;
+    width: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spam-1{
+    background: #937575;
+}
+.spam-2{
+    background: #644C4C;
+}
+
+/*------------------------------- Footer ----------------------*/
+footer{
+    background: #BDBDBD;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+
+}
+

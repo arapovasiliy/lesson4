@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    display:  flex;
+}
+
+/*------------------------------- Header ----------------------*/
+header {
+    height: 4vh;
+    background: #D9D9D9;
+}
+
+/*------------------------------- Main ----------------------*/
+main .main-part {
+    height: 74vh;
+    width: 60vw;
+    background: #A4A4A4;
+}
+
+main aside {
+    width: 40vw;
+}
+
+main .aside-top {
+    height: 40vh;
+    width: 40vw;
+    background: #7F7A7A;
+}
+
+main .aside-bottom {
+    height: 34vh;
+    width: 40vw;
+    background: #615050;
+}
+
+/*------------------------------- Footer ----------------------*/
+footer{
+    flex-direction: column;
+}
+footer .footer-top-part {
+    height: 10vh;
+    background: #D9D9D9;
+}
+
+footer .footer-bottom-part {
+    height: 12vh;
+    background: #AFA9A9;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    height: 22vh;
+    background: #D9D9D9;
+}
+
+main {
+    display: flex;
+    height: 56vh;
+}
+
+main aside {
+    width: 27vw;
+    background: #C0BDBD;
+}
+
+main div {
+    width: 46vw;
+}
+
+.top-div {
+    height: 26vh;
+    background: #827878;
+}
+
+.bottom-div {
+    height: 30vh;
+    background: #B7ADAD;
+}
